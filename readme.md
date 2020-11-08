@@ -48,7 +48,7 @@ New row in linked google sheet. (Linked to a google form's responses).
 - Sign up for a trial number with Twilio
 - Allow sms body to be included with Twilio
 
-#### How it solves (detailed walkthrough): ####
+#### How it helps (detailed walkthrough): ####
 ---
 1. As a Quality Assurance (QA) tester, I want to quickly file bugs without navigating through Zendesk Agent Support GUI but still have Zendesk tickets recorded for audit.
     + Created a [google form](https://forms.gle/NQ85DzwfA8TdJjxJ6) to capture QA's test data
@@ -57,6 +57,19 @@ New row in linked google sheet. (Linked to a google form's responses).
 <br />
 
 2. As a product owner, I want to extract relevant data for appropriate action by engineers and transform data meaningfully when I map it over to Zendesk.
-    + Created `relevant party to escalate to` form field and map as `tags` in Zendesk
-    + Created `URL path of bug` form field and map as `bug URL path` in Zendesk
-    + Further segregrate bugs into `bug category` form field to map as `subject` in Zendesk
+    + Created `relevant party to escalate to` form field and map as `tags` in Zendesk.
+    + Created `URL path of bug` form field and map as `bug URL path` in Zendesk.
+    + Further segregrate bugs into `bug category` form field to map as `subject` in Zendesk.
+<br />
+
+3. As an engineer, I prefer to eliminate the step of creating the Github issue manually (with its details) on [Github organistaion's repository](https://github.com/work-kata) after viewing it on Zendesk.
+    + [Github issues'](https://github.com/work-kata/product-feedback-workata/issues) title is map to `bug description` for quicker evaluation.
+    + URL (mapped from Zendesk's `bug URL path`) is included in [Github issues'](https://github.com/work-kata/product-feedback-workata/issues) body for engineers to quickly reproduce bug.
+    ![issue-github](imgs/issue-github.png)
+<br />
+
+4. As a product owner, I want to be alerted if the bug is feature breaking i.e. high priority
+    + SMS sent if priority is high
+    ![sms-twilio](imgs/sms-twilio.png)
+
+5. As a data analyst, I want to customise my input data fields, extract them to google sheets and transform data via mappings to Zendesk. Zendesk serves as the single source of truth that other teams work off while the google sheets is the cleaned upstream data (shadow copy).
