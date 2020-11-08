@@ -18,7 +18,7 @@ When user is defining actions from Zendesk, _Update_ seen misspelt as _Upsert_:
 
 #### Summary of created recipe with create Zendesk ticket action(s): ####
 ---
-Access created recipe, `product-feedback-workata` [here](https://app.workato.com/recipes/1322460?st=13f663)
+Access created recipe, `product-feedback-workata` [here](https://app.workato.com/recipes/1322460?st=13f663). Also listed on Workato's community library.
 
 ![created recipe](imgs/recipe.png)
 <br />
