@@ -1,6 +1,10 @@
 # Workato PM Take-home test (katas)
 
-## Kata (1): Build an action that creates a ticket in Zendesk and describe how it works ##
+_kata: a Japanese word about training methods by which successful techniques are learned and passed on. Coined `workata` as detailed practice to master Workato_
+
+<br />
+
+### Kata (1): Build an action that creates a ticket in Zendesk and describe how it works ###
 ---
 **Context:**
 How might we go about product testing of `app.workato.com`?
@@ -80,7 +84,7 @@ New row in linked google sheet. (Linked to a google form's responses).
 
 <br />
 
-### Kata (2): Write on your experience creating a recipe, comparing to competitors ###
+## Kata (2): Write on your experience creating a recipe, comparing to competitors ##
 ---
 
 ![Written reflection on google sheets](https://docs.google.com/document/d/1INUEkDLMdzyN31eNKaT_r776QcQwfMgWpdxQjK6dx9U/edit?usp=sharing)
