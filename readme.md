@@ -5,7 +5,6 @@ _kata: a Japanese word about training methods by which successful techniques are
 <br />
 
 ## Kata (1): Build an action that creates a ticket in Zendesk and describe how it works ##
----
 **Context:**
 How might we go about product testing of `app.workato.com`?
 
@@ -28,6 +27,7 @@ When user is defining actions from Zendesk, _Update_ seen misspelt as _Upsert_:
 Access created recipe, `product-feedback-workata` [here](https://app.workato.com/recipes/1322460?st=13f663). Also listed on Workato's community library.
 
 ![created recipe](imgs/recipe.png)
+
 <br />
 
 **How it works:**
@@ -85,6 +85,5 @@ New row in linked google sheet. (Linked to a google form's responses).
 <br />
 
 ## Kata (2): Write on your experience creating a recipe, comparing to competitors ##
----
 
 ![Written reflection on google sheets](https://docs.google.com/document/d/1INUEkDLMdzyN31eNKaT_r776QcQwfMgWpdxQjK6dx9U/edit?usp=sharing)
