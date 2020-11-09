@@ -4,7 +4,7 @@ _kata: a Japanese word about training methods by which successful techniques are
 
 <br />
 
-### Kata (1): Build an action that creates a ticket in Zendesk and describe how it works ###
+## Kata (1): Build an action that creates a ticket in Zendesk and describe how it works ##
 ---
 **Context:**
 How might we go about product testing of `app.workato.com`?
