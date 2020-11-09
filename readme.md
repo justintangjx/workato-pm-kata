@@ -1,6 +1,6 @@
 # Workato PM Take-home test (katas)
 
-#### Kata (1): Build an action that creates a ticket in Zendesk and describe how it works
+## Kata (1): Build an action that creates a ticket in Zendesk and describe how it works ##
 ---
 **Context:**
 How might we go about product testing of `app.workato.com`?
@@ -10,13 +10,16 @@ When user is establishing trigger during recipe creation involving Zendesk, _Tri
 
 ![Trigger spelt wrongly](imgs/tigger-spelling.png)
 
+<br />
+<br />
+
 When user is defining actions from Zendesk, _Update_ seen misspelt as _Upsert_:
 
 ![Update spelt wrongly](imgs/upsert-spelling.png)
 
 <br />
 
-#### Summary of created recipe with create Zendesk ticket action(s): ####
+### Summary of created recipe with create Zendesk ticket action(s): ###
 ---
 Access created recipe, `product-feedback-workata` [here](https://app.workato.com/recipes/1322460?st=13f663). Also listed on Workato's community library.
 
@@ -48,7 +51,7 @@ New row in linked google sheet. (Linked to a google form's responses).
 - Sign up for a trial number with Twilio
 - Allow sms body to be included with Twilio
 
-#### How it helps (detailed walkthrough): ####
+### How it helps (detailed thought process): ###
 ---
 1. As a Quality Assurance (QA) tester, I want to quickly file bugs without navigating through Zendesk Agent Support GUI but still have Zendesk tickets recorded for audit.
     + Created a [google form](https://forms.gle/NQ85DzwfA8TdJjxJ6) to capture QA's test data
@@ -71,5 +74,13 @@ New row in linked google sheet. (Linked to a google form's responses).
 4. As a product owner, I want to be alerted if the bug is feature breaking i.e. high priority
     + SMS sent if priority is high
     ![sms-twilio](imgs/sms-twilio.png)
+<br />
 
 5. As a data analyst, I want to customise my input data fields, extract them to google sheets and transform data via mappings to Zendesk. Zendesk serves as the single source of truth that other teams work off while the google sheets is the cleaned upstream data (shadow copy).
+
+<br />
+
+### Kata (2): Write on your experience creating a recipe, comparing to competitors ###
+---
+
+![Written reflection on google sheets](https://docs.google.com/document/d/1INUEkDLMdzyN31eNKaT_r776QcQwfMgWpdxQjK6dx9U/edit?usp=sharing)
