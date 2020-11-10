@@ -86,4 +86,4 @@ New row in linked google sheet. (Linked to a google form's responses).
 
 ## Kata (2): Write on your experience creating a recipe, comparing to competitors ##
 
-![Written reflection on google sheets](https://docs.google.com/document/d/1INUEkDLMdzyN31eNKaT_r776QcQwfMgWpdxQjK6dx9U/edit?usp=sharing)
+[Written reflection on google sheets](https://docs.google.com/document/d/1INUEkDLMdzyN31eNKaT_r776QcQwfMgWpdxQjK6dx9U/edit?usp=sharing)
